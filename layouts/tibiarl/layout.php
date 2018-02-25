@@ -190,14 +190,6 @@ var FB_ForceReload = 0;
 							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						</div>
 					</a>
-					<a href="?subtopic=videos">
-						<div id="submenu_videos" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
-							<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
-							<div id="ActiveSubmenuItemIcon_videos" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-							<div id="ActiveSubmenuItemLabel_videos" class="SubmenuitemLabel">Videos</div>
-							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
-						</div>
-					</a>
 				</div>
 			</div>
 			<div id="community" class="menuitem">
