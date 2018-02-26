@@ -9,9 +9,9 @@ if($logged)
     $dark = $config['site']['darkborder']; 
     $light = $config['site']['lightborder']; 
     $color[] = "red"; // for <15% 
-    $color[] = orange; // for <35% 
-    $color[] = yellow; // for <=50% 
-    $color[] = green; // for >50% 
+    $color[] = "orange"; // for <35% 
+    $color[] = "yellow"; // for <=50% 
+    $color[] = "green"; // for >50% 
     $time = time(); 
     $POLLS = $SQL->query('SELECT * FROM '.$SQL->tableName('z_polls').''); 
     $level = 20; // need level to vote 

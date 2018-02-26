@@ -205,7 +205,7 @@ if($config['site']['shop_system'] == 1) {
 		$offer_list = getOfferArray();
 		// show storage
 
-		if(count($offer_list['storage']) > 0){
+		if($offer_list['storage']){
 			$main_content .= '
 				<div class="TableContainer">
 					<div class="CaptionContainer">
