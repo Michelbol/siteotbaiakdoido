@@ -8,7 +8,7 @@ if($logged)
     $link = "polls"; // your link to polls in index.php 
     $dark = $config['site']['darkborder']; 
     $light = $config['site']['lightborder']; 
-    $color[] = red; // for <15% 
+    $color[] = "red"; // for <15% 
     $color[] = orange; // for <35% 
     $color[] = yellow; // for <=50% 
     $color[] = green; // for >50% 

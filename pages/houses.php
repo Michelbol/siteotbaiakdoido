@@ -158,13 +158,13 @@ if(empty($id))
 						$main_content .= 'checked="checked" ';
 					$main_content .= '>all states<br>
 					<input type="radio" name="owner" value="1" ';
-					if($houses_owner == 1)
-						$main_content .= 'checked="checked" ';
-					$main_content .= '>auctioned<br>
-					<input type="radio" name="owner" value="2" ';
+					// if($houses_owner == 1)
+						// $main_content .= 'checked="checked" ';
+					// $main_content .= Leiloada<br>
+					'><input type="radio" name="owner" value="2" ';
 					if($houses_owner == 2)
 						$main_content .= 'checked="checked" ';
-					$main_content .= '>rented<br>
+					$main_content .= '>Alugada<br>
 				</td>
 				<td valign=top rowspan=2>
 					<input type="radio" name="order" value="0" ';
