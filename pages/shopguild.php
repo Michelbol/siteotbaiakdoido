@@ -284,7 +284,7 @@ $main_content .= '
 		$offer_list = getOfferArray();
 		// show storage
 
-		if(count($offer_list['storage']) > 0){
+		if(($offer_list['storage'])){
 			$main_content .= '
 				<div class="TableContainer">
 					<div class="CaptionContainer">
@@ -440,7 +440,7 @@ if($logged){			$main_content .= '
 				<br/>';}
 
 				//show list of vipdays offers
-				if(count($offer_list['pacc']) > 0){
+				if(($offer_list['pacc'])){
 					$main_content .= '
 						<div class="TableContainer">
 							<div class="CaptionContainer">
@@ -529,7 +529,7 @@ if($logged){			$main_content .= '
 							</tbody>
 						</table>
 					</div><br />';}
-				if(count($offer_list['vipdays']) > 0){
+				if(($offer_list['vipdays'])){
 					$main_content .= '
 						<div class="TableContainer">
 							<div class="CaptionContainer">
@@ -618,7 +618,7 @@ if($logged){			$main_content .= '
 						</table>
 					</div><br />';}
 //show list of itemsvip offers
-if(count($offer_list['itemvip']) > 0) {
+if(($offer_list['itemvip'])) {
 $main_content .= '
 <div class="TableContainer">
 <div class="CaptionContainer">
@@ -705,7 +705,7 @@ $main_content .= '</tbody>
 </table>
 </div><br />';}
 //show list of items offers
-if(count($offer_list['item']) > 0 or count($offer_list['itemlogout']) > 0){
+if(($offer_list['item']) or ($offer_list['itemlogout'])){
 $main_content .= '
 <div class="TableContainer">
 <div class="CaptionContainer">
@@ -800,7 +800,7 @@ $main_content .= '</tbody>
 }
 
 //show list of outfits offers
-if(count($offer_list['outfit']) > 0) {
+if(($offer_list['outfit'])) {
 $main_content .= '
 <div class="TableContainer">
 <div class="CaptionContainer">
@@ -901,7 +901,7 @@ $main_content .= '</tbody>
 
 //show list of containers offers
 
-if(count($offer_list['itemlogout']) > 0) {
+if(($offer_list['itemlogout'])) {
 $main_content .= '
 <div class="TableContainer">
 <div class="CaptionContainer">
@@ -982,7 +982,7 @@ $main_content .= '</tbody>
 </tbody>
 </table>
 </div><br />';}
-if(count($offer_list['container']) > 0) {
+if(($offer_list['container'])) {
 $main_content .= '
 <div class="TableContainer">
 <div class="CaptionContainer">
@@ -1065,7 +1065,7 @@ $main_content .= '</tbody>
 </tbody>
 </table>
 </div><br />';}
-if(count($offer_list['changename']) > 0 or count($offer_list['redskull']) > 0 or count($offer_list['unban']) > 0){
+if(($offer_list['changename']) or ($offer_list['redskull']) or ($offer_list['unban'])){
 $main_content .= '
 <div class="TableContainer">
 <div class="CaptionContainer">
