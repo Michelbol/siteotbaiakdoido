@@ -361,7 +361,7 @@ if($logged){			$main_content .= '
 				<br/>';}
 
 				//show list of vipdays offers
-				if$offer_list['pacc']){
+				if($offer_list['pacc']){
 					$main_content .= '
 						<div class="TableContainer">
 							<div class="CaptionContainer">
