@@ -3,7 +3,7 @@
 $config['site']['serverPath'] = "C:/Users/Natan/Desktop/3926/";
 $config['site']['useServerConfigCache'] = false;
 $config['site']['worlds'] = array(0 => 'Gesior ACC');
-$towns_list[0] = array(1 => 'Venore', 2 => 'Thais', 3 => 'Kazordoon', 4 => 'Carlin');
+$towns_list[0] = array(1 => 'Baiak City', 8 => 'New Island', 9 => 'Vip I', 10 => 'Morgum', 11 => 'Donate Town');
 
 $config['site']['outfit_images_url'] = '/outfit.php';
 $config['site']['item_images_url'] = 'http://item-images.ots.me/960/';
