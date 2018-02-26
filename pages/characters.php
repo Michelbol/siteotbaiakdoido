@@ -139,9 +139,9 @@ else
             $main_content .= '<td style="background-color: '.$config['site']['darkborder'].'; text-align: center;">Soul:<br/>'.$player->getSoul().'</td>';
             }
                 if(is_int($number_of_items / 3))
-            $main_content .= '<TD style="background-color: '.$config['site']['darkborder'].'; text-align: center;"><img src="images/items/'.$top[itemtype].'.gif" width="45"/></TD></tr><tr>';
+            $main_content .= '<TD style="background-color: '.$config['site']['darkborder'].'; text-align: center;"><img src="images/items/'.$top["itemtype"].'.gif" width="45"/></TD></tr><tr>';
                 else
-            $main_content .= '<TD style="background-color: '.$config['site']['darkborder'].'; text-align: center;"><img src="images/items/'.$top[itemtype].'.gif" width="45"/></TD>';
+            $main_content .= '<TD style="background-color: '.$config['site']['darkborder'].'; text-align: center;"><img src="images/items/'.$top["itemtype"].'.gif" width="45"/></TD>';
                 $number_of_items++;
             }
                            if($list[$pid] == '8') {
