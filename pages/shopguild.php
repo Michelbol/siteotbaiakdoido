@@ -2636,7 +2636,7 @@ if(!$logged)
 $main_content .= '<br /><center><div class="notice"><b>Please login to see how much points you have</b></div></center>';
 else
 if($account_logged->getCustomField("guild_points") <= 0)
-$main_content .='<br /><center><div class="error"><b>You do not have guild points available.</b><br /><br /><form action="index.php?subtopic=buypoints" method="post"><input type="submit" value="Buy now guild points here!" class="btn btn-success" /></form></div></center>'; 
+$main_content .='<br /><center><div class="error"><b>You do not have guild points available.</b><br /><br /><form action="index.php?subtopic=buypoints" method="post"></form></div></center>'; 
 else
 if($account_logged->getCustomField("guild_points") >= 1)
 $main_content .='<br /><center><div class="success" style="width: 300px;">You have&nbsp;<b>'.$account_logged->getCustomField("guild_points").'</b>&nbsp;guild points available</div></center>';
