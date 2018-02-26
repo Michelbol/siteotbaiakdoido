@@ -104,7 +104,7 @@ if(empty($id))
 				}
 				elseif($house['owner'] > 0)
 				{
-					$player = $ots->createObject('Player');
+					$player = new Player();
 					$player->load($house['owner']);
 					$owner = 'Alugada por <a href="?subtopic=characters&name='.urlencode($player->getName()).'">'.$player->getName().'</a>';
 				}
@@ -217,7 +217,7 @@ else
 		$bed = $house['beds'].' beds';
 	if($house['owner'] > 0)
 	{
-		$player = $ots->createObject('Player');
+		$player = new Player();
 		$player->load($house['owner']);
 		if($house['paid'] > 0)
 			$paid = ' and paid until <b>Feb 08 2011, 23:58:43'.date("M j Y, H:i:s", $house['paid']).' CET</b>';
