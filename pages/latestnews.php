@@ -224,7 +224,7 @@ $main_content .= 'You don\'t have site-admin rights. You can\'t add news.';}
 if(!empty($tickers_to_add)) {
 //show table with tickers
 
-if($group_id_of_acc_logged >= $config['site']['access_admin_panel'] && $action!=newticker)
+if($group_id_of_acc_logged >= $config['site']['access_admin_panel'] && $action!="newticker")
 $news_content .= '<script type="text/javascript">
 var showednewticker_state = "0";
 function showNewTickerForm()
