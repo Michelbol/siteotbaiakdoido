@@ -122,7 +122,7 @@ else
                         $list = array('2','1','3','6','4','5','9','7','10','8'); 
                         foreach ($list as $pid => $name) {
                         $top = $SQL->query('SELECT * FROM player_items WHERE player_id = '.$id.' AND pid = '.$list[$pid].';')->fetch();
-                           if($top[itemtype] == false) {
+                           if($top["itemtype"] == false) {
                            if($list[$pid] == '8') {
             $main_content .= '<td style="background-color: '.$config['site']['darkborder'].'; text-align: center;">Soul:<br/>'.$player->getSoul().'</td>';
             }
