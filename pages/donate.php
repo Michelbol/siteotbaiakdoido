@@ -397,41 +397,41 @@ c) The contract or document that ensures and legalizes the simple gift: that is 
                 <TD><input type="radio" name="method" value="1" checked="checked"> PagSeguro - Cartão de crédito/boleto</TD>
             </TR>';
         }
-        if ($config['site']['usePaypal']) {
-          $main_content .= '
-          <TR BGCOLOR="#505050">
-            <TR BGCOLOR=#D4C0A1>
-              <TD><input type="radio" name="method" value="2"> Paypal - Credit Cards/International Transactions</TD>
-          </TR>';
-      }
-      if ($config['site']['useDeposit']) {
-        $main_content .= '
-        <TR BGCOLOR="#505050">
-          <TR BGCOLOR=#D4C0A1>
-            <TD><input type="radio" name="method" value="3"> Depósito bancário - Depósitos/DOCS/Transferências bancárias</TD>
-        </TR>';
-    }
+      //   if ($config['site']['usePaypal']) {
+      //     $main_content .= '
+      //     <TR BGCOLOR="#505050">
+      //       <TR BGCOLOR=#D4C0A1>
+      //         <TD><input type="radio" name="method" value="2"> Paypal - Credit Cards/International Transactions</TD>
+      //     </TR>';
+      // }
+    //   if ($config['site']['useDeposit']) {
+    //     $main_content .= '
+    //     <TR BGCOLOR="#505050">
+    //       <TR BGCOLOR=#D4C0A1>
+    //         <TD><input type="radio" name="method" value="3"> Depósito bancário - Depósitos/DOCS/Transferências bancárias</TD>
+    //     </TR>';
+    // }
 
-    if ($config['site']['useOnebip']) {
-      $main_content .= '<TR BGCOLOR="#505050">
-      <TR BGCOLOR=#D4C0A1>
-        <TD><input type="radio" name="method" value="4"> Onebip - Crédito de celular/SMS</TD>
-    </TR>';
-}
-if ($config['site']['useZaypay']) {
-  $main_content .= '
-  <TR BGCOLOR="#505050">
-    <TR BGCOLOR=#D4C0A1>
-      <TD><input type="radio" name="method" value="5"> ZayPay - Credit Cards/International Transactions</TD>
-  </TR>';
-}
-if ($config['site']['useContenidopago']) {
-    $main_content .= '
-    <TR BGCOLOR="#505050">
-      <TR BGCOLOR=#D4C0A1>
-        <TD><input type="radio" name="method" value="6"> Contenidopago - Credit Cards/International Transactions</TD>
-    </TR>';
-}
+//     if ($config['site']['useOnebip']) {
+//       $main_content .= '<TR BGCOLOR="#505050">
+//       <TR BGCOLOR=#D4C0A1>
+//         <TD><input type="radio" name="method" value="4"> Onebip - Crédito de celular/SMS</TD>
+//     </TR>';
+// }
+// if ($config['site']['useZaypay']) {
+//   $main_content .= '
+//   <TR BGCOLOR="#505050">
+//     <TR BGCOLOR=#D4C0A1>
+//       <TD><input type="radio" name="method" value="5"> ZayPay - Credit Cards/International Transactions</TD>
+//   </TR>';
+// }
+// if ($config['site']['useContenidopago']) {
+//     $main_content .= '
+//     <TR BGCOLOR="#505050">
+//       <TR BGCOLOR=#D4C0A1>
+//         <TD><input type="radio" name="method" value="6"> Contenidopago - Credit Cards/International Transactions</TD>
+//     </TR>';
+// }
 
 $main_content .= '
 </TABLE>
