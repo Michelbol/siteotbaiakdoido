@@ -53,12 +53,12 @@ $config['site']['max_players_per_account'] = 15;
 
 # Emails Config
 $config['site']['send_emails'] = true;
-$config['site']['mail_address'] = "baiak-completo@gmail.com";
+$config['site']['mail_address'] = "baiakcompleto@gmail.com";
 $config['site']['smtp_enabled'] = true;
 $config['site']['smtp_host'] = "smtp.gmail.com";
 $config['site']['smtp_port'] = 587;
 $config['site']['smtp_auth'] = true;
-$config['site']['smtp_user'] = "baiak-completo@gmail.com";
+$config['site']['smtp_user'] = "baiakcompleto@gmail.com";
 $config['site']['smtp_pass'] = "Baiakcomplet!";
 
 # PAGE: whoisonline.php
