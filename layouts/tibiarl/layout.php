@@ -256,14 +256,14 @@ var FB_ForceReload = 0;
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
-				<a href="?subtopic=castsystem">
+				<!-- <a href="?subtopic=castsystem">
 					<div id="submenu_castsystem" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_castsystem" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
 						<div id="ActiveSubmenuItemLabel_castsystem" class="SubmenuitemLabel">Cast System</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
-				</a>				
+				</a>	 -->			
 				<a href="?subtopic=polls">
 					<div id="submenu_polls" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
@@ -435,14 +435,14 @@ var FB_ForceReload = 0;
 						<div class='RightChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
   					</div>
 				</a>
-				<a href='?subtopic=shopguild'>
+				<!-- <a href='?subtopic=shopguild'>
   					<div id='submenu_shopguild' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
 						<div class='LeftChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
 						<div id='ActiveSubmenuItemIcon_shopguild' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
 						<div class='SubmenuitemLabel'>Shop Guild</div>
 						<div class='RightChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
   					</div>
-				</a>
+				</a> -->
 				<?PHP
 				if($logged){
 				?>
